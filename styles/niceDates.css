@@ -1,0 +1,38 @@
+.vk .nice-dates-popover {
+    position: fixed !important;
+    top: -50% !important;
+    left: 50% !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+}
+
+.vk .nice-dates-popover:not(.-open) {
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+@media (min-width: 640px) {
+    .vk .nice-dates-popover {
+        position: fixed !important;
+        top: -50% !important;
+        left: 50% !important;
+        transform: translateX(-50%) translateY(-100%) !important;
+    }
+    .vk .nice-dates-popover:not(.-open) {
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .vk .nice-dates-popover {
+        position: fixed !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translateX(-50%) translateY(-50%) !important;
+    }
+
+    .vk .nice-dates-popover:not(.-open) {
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+}
